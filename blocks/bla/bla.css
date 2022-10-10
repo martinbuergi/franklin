@@ -12,7 +12,7 @@
         display: flex;
         align-items: center;
         flex-direction: unset;
-        background-color: aqua;
+        background-color: rgb(21, 236, 28);
     }
 
     .bla > div > div {
