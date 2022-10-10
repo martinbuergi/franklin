@@ -1,0 +1,26 @@
+.bla > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.bla img {
+    width: 100%;
+}
+
+@media (min-width: 900px) {
+    .bla > div {
+        display: flex;
+        align-items: center;
+        flex-direction: unset;
+        background-color: aqua;
+    }
+
+    .bla > div > div {
+        flex: 1;
+        margin-left: 32px;
+    }
+
+    .bla > div > div:first-of-type {
+        margin-left: unset;
+    }
+}
